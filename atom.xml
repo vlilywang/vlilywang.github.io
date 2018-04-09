@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-04-09T03:07:05.129Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>css3特性整理</title>
+    <link href="http://yoursite.com/2018/04/09/css3%E7%89%B9%E6%80%A7%E6%95%B4%E7%90%86/"/>
+    <id>http://yoursite.com/2018/04/09/css3特性整理/</id>
+    <published>2018-04-09T02:31:33.000Z</published>
+    <updated>2018-04-09T03:07:05.129Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="css3选择器"><a href="#css3选择器" class="headerlink" title="css3选择器"></a>css3选择器</h3><h3 id="视觉效果"><a href="#视觉效果" class="headerlink" title="视觉效果"></a>视觉效果</h3><h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><h3 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h3><h3 id="阴影"><a href="#阴影" class="headerlink" title="阴影"></a>阴影</h3><h3 id="多列布局和弹性盒模型布局"><a href="#多列布局和弹性盒模型布局" class="headerlink" title="多列布局和弹性盒模型布局"></a>多列布局和弹性盒模型布局</h3><h3 id="web字体和web-font图标"><a href="#web字体和web-font图标" class="headerlink" title="web字体和web font图标"></a>web字体和web font图标</h3><h3 id="颜色与透明度"><a href="#颜色与透明度" class="headerlink" title="颜色与透明度"></a>颜色与透明度</h3><h3 id="圆角与边框"><a href="#圆角与边框" class="headerlink" title="圆角与边框"></a>圆角与边框</h3><h4 id="圆角：-border-radius"><a href="#圆角：-border-radius" class="headerlink" title="圆角： border-radius"></a>圆角： <code>border-radius</code></h4><ol><li><p><code>border-radius: 左上 右上 右下 左下</code><br> 即<code>border-radius: 10px 20px 30px 40px;</code>的结果为</p><p> <img src="https://i.imgur.com/hpLcfg6.png" alt="左上 右上 右下 左下"></p></li><li><p>左上： <code>border-top-left-radius: 10px;</code> 等价于 <code>border-radius: 10px 0 0 0;</code></p><p> 右上： <code>border-top-right-radius: 10px;</code> 等价于 <code>border-radius: 0 10px 0 0;</code></p><p> 左下： <code>border-bottom-left-radius: 10px;</code> 等价于 <code>border-radius: 0 0 0 10px;</code></p><p> 右下： <code>border-bottom-right-radius: 10px;</code> 等价于 <code>border-radius: 0 0 10px 0;</code></p></li><li><p><code>border-radius: 10px 40px 100px;</code> 为 左上 右上左下 右下</p><p><code>border-radius: 10px 40px;</code> 为 左上右下 右上左下</p><p><code>border-radius: 10px;</code> 为 四个圆角值相同</p></li></ol><h3 id="盒容器的变形"><a href="#盒容器的变形" class="headerlink" title="盒容器的变形"></a>盒容器的变形</h3><h3 id="CSS3过渡与动画交互效果"><a href="#CSS3过渡与动画交互效果" class="headerlink" title="CSS3过渡与动画交互效果"></a>CSS3过渡与动画交互效果</h3><h3 id="媒体特性与Responsive布局"><a href="#媒体特性与Responsive布局" class="headerlink" title="媒体特性与Responsive布局"></a>媒体特性与Responsive布局</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;css3选择器&quot;&gt;&lt;a href=&quot;#css3选择器&quot; class=&quot;headerlink&quot; title=&quot;css3选择器&quot;&gt;&lt;/a&gt;css3选择器&lt;/h3&gt;&lt;h3 id=&quot;视觉效果&quot;&gt;&lt;a href=&quot;#视觉效果&quot; class=&quot;headerlink&quot; titl
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/04/08/hello-world/"/>
+    <id>http://yoursite.com/2018/04/08/hello-world/</id>
+    <published>2018-04-08T02:38:48.493Z</published>
+    <updated>2018-04-08T02:38:48.496Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
